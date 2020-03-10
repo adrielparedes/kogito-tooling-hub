@@ -1,0 +1,16 @@
+.fileselector {
+  &__dialog {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &__text {
+      width: 100%;
+    }
+
+    &__button {
+      margin-left: 1rem !important;
+      width: 8rem;
+    }
+  }
+}

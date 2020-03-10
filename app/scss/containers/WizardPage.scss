@@ -1,0 +1,17 @@
+.wizard {
+  height: 100vh;
+
+  &__content {
+    margin-top: 3rem;
+  }
+
+  &__actions {
+    width: fit-content;
+    margin-top: 10rem;
+    margin-left: auto;
+
+    & > *:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+}

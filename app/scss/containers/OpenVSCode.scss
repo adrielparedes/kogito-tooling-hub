@@ -1,0 +1,28 @@
+.openvscode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__location {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &__text {
+      width: 100%;
+    }
+
+    &__button {
+      margin-left: 1rem !important;
+    }
+  }
+
+  &__open {
+    width: 100%;
+    margin-top: 1rem;
+
+    button {
+      width: 100%;
+    }
+  }
+}

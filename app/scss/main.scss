@@ -1,0 +1,25 @@
+@import './containers/SplashPage.scss';
+@import './containers/WizardPage.scss';
+@import './containers/OpenVSCode.scss';
+@import './containers/FileSelector.scss';
+@import './containers/InstallVsCodeExtension.scss';
+
+body {
+  /* color: white; */
+  height: 100vh;
+  font-family: Arial, Helvetica, Helvetica Neue, serif;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 2rem !important;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed,
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #007bff !important;
+}
